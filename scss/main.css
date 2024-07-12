@@ -11966,4 +11966,42 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important;
   }
+}
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+main {
+  margin-bottom: 250px;
+}
+
+.bigTitle {
+  position: relative;
+}
+.bigTitle::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(../images/bigTitle.jpg);
+  background-size: cover;
+  filter: brightness(0.2);
+}
+.bigTitle * {
+  position: relative;
+}
+
+p {
+  font-family: "Hind Madurai", serif;
+  font-size: 12px;
+}
+
+footer.footer {
+  padding: 15px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }/*# sourceMappingURL=main.css.map */
